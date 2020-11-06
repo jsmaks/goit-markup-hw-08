@@ -1399,13 +1399,13 @@ body.modal-open {
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
+  .hero-page {
     background-image: url("../../images/header/header-tablet.jpg");
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .hero {
+  .hero-page {
     background-image: url("../../images/header/header-desktop.jpg");
   }
 }
