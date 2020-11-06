@@ -1,0 +1,104 @@
+.container {
+  padding: 0 15px;
+  // outline: 1px solid red;
+  .features & {
+    padding: 60px 15px;
+  }
+  .team & {
+    padding: 60px 15px;
+  }
+  .clients & {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+    .features & {
+      padding: 60px 15px;
+    }
+    .team & {
+      padding: 60px 15px;
+    }
+    .clients & {
+      padding: 60px 15px;
+    }
+    .footer & {
+      // max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    // display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+    .features & {
+      padding: 60px 15px;
+    }
+    .clients & {
+      padding: 60px 15px;
+    }
+    .team & {
+      padding: 60px 15px;
+    }
+    .portfolio & {
+      padding: 60px 15px;
+    }
+    .footer & {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+
+    .header & {
+      display: flex;
+      align-items: center;
+    }
+
+    .portfolio & {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+    .clients & {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+    .features & {
+      padding-top: 94px;
+      padding-bottom: 47px;
+    }
+
+    .hero-page & {
+      height: 600px;
+      max-width: 1600px;
+      padding-top: 200px;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .team & {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+    .we-doing & {
+      padding-top: 47px;
+      padding-bottom: 94px;
+    }
+    .footer & {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
