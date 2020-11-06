@@ -1,11 +1,9 @@
 
-.hero {
-  height: 600px;
-}
+
 @media screen and (min-width: 768px){
 
   .hero-page {
-    height: 100%;
+    
     background-image: url("../../images/header/header-tablet.jpg");
   }
 }
