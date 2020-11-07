@@ -705,12 +705,13 @@ body.modal-open {
 
 @media screen and (max-width: 767px) {
   .modal {
+    width: 100%;
     max-width: 450px;
     max-height: 609px;
     padding: 40px 40px;
     background-color: #fff;
     position: absolute;
-    top: 60%;
+    top: 385px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -742,7 +743,7 @@ body.modal-open {
     padding: 40px 40px;
     background-color: #fff;
     position: absolute;
-    top: 50%;
+    top: 385px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
