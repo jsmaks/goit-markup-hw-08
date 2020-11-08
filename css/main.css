@@ -1400,9 +1400,6 @@ body.modal-open {
 }
 
 @media screen and (min-width: 1px) and (max-width: 479px) {
-  .hero {
-    background-color: #2f303a;
-  }
   .hero-page {
     position: relative;
     z-index: 2;
@@ -1410,6 +1407,7 @@ body.modal-open {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #2f303a;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header/header-mobile.jpg");
@@ -1436,9 +1434,6 @@ body.modal-open {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .hero {
-    background-color: #2f303a;
-  }
   .hero-page {
     position: relative;
     z-index: 2;
@@ -1446,6 +1441,7 @@ body.modal-open {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #2f303a;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header/header-mobile.jpg");
@@ -1472,13 +1468,11 @@ body.modal-open {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .hero {
-    background-color: #2f303a;
-  }
   .hero-page {
     position: relative;
     z-index: 2;
     padding: 118px 204px;
+    background-color: #2f303a;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1508,17 +1502,15 @@ body.modal-open {
 }
 
 @media screen and (min-width: 1200px) {
-  .hero {
-    background-color: #2f303a;
-  }
   .hero-page {
     position: relative;
     z-index: 2;
+    background-color: #2f303a;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 600px;
-    max-width: 1600px;
+    width: 1600px;
     padding: 118px 204px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header/header-desktop.jpg");
     background-position: center;
